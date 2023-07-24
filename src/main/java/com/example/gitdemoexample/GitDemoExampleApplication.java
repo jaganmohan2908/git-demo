@@ -14,6 +14,8 @@ public class GitDemoExampleApplication {
     public static void addData(String data) {
         if (data.equals("test")) {
             System.out.println("data .." + data);
+        } else {
+            System.out.println("added  .else block.");
 
         }
     }
